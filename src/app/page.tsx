@@ -41,7 +41,7 @@ export default function HomePage() {
       <section className="w-full py-12 md:py-20 lg:py-28 bg-gradient-to-br from-primary/10 via-background to-background">
         <div className="container px-4 md:px-6 text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-primary drop-shadow-sm">
-            Welcome to ItemConnect
+            Welcome to TraceIt
           </h1>
           <p className="mx-auto max-w-[700px] text-foreground/80 md:text-xl mt-4 mb-8">
             Your community hub for lost items, found treasures, and friendly exchanges.
@@ -91,7 +91,7 @@ export default function HomePage() {
              <div className="md:w-1/2">
                 <h2 className="text-3xl font-bold tracking-tight mb-4">Connecting Communities</h2>
                 <p className="text-muted-foreground mb-6">
-                  ItemConnect is more than just a platform; it's a community initiative designed to foster connections, promote responsibility, and encourage sustainable practices. Whether you're trying to find a cherished lost possession or looking to give a pre-loved item a new home, we're here to make the process simpler and more effective.
+                  TraceIt is more than just a platform; it's a community initiative designed to foster connections, promote responsibility, and encourage sustainable practices. Whether you're trying to find a cherished lost possession or looking to give a pre-loved item a new home, we're here to make the process simpler and more effective.
                 </p>
                 <Button asChild variant="outline">
                   <Link href="/about">Learn More About Us</Link>

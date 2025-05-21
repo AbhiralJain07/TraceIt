@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto py-12 px-4 md:px-6">
       <header className="text-center mb-12 md:mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tighter text-primary">About ItemConnect</h1>
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tighter text-primary">About TraceIt</h1>
         <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
           Connecting communities, one item at a time. Learn more about our mission, vision, and values.
         </p>
@@ -19,7 +19,7 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-2xl md:text-3xl font-semibold mb-4">Our Mission</h2>
                 <p className="text-foreground/80 leading-relaxed mb-4">
-                  At ItemConnect, our mission is to provide a reliable and user-friendly platform that empowers individuals to easily report lost items, announce found items, and exchange goods within their local communities. We aim to foster a sense of trust, responsibility, and connection, making it simpler for belongings to find their way back to their owners and for pre-loved items to find new homes.
+                  At TraceIt, our mission is to provide a reliable and user-friendly platform that empowers individuals to easily report lost items, announce found items, and exchange goods within their local communities. We aim to foster a sense of trust, responsibility, and connection, making it simpler for belongings to find their way back to their owners and for pre-loved items to find new homes.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
                   We believe in the power of community and technology to solve everyday problems and promote sustainability.
@@ -64,7 +64,7 @@ export default function AboutPage() {
       <section className="text-center bg-secondary/50 py-12 md:py-16 rounded-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4">Join Our Community</h2>
         <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-          Become a part of ItemConnect today and experience the ease of finding, reporting, and exchanging items. Together, we can make a difference.
+          Become a part of TraceIt today and experience the ease of finding, reporting, and exchanging items. Together, we can make a difference.
         </p>
         {/* Placeholder for future call to action, e.g., newsletter signup or link to create account */}
       </section>

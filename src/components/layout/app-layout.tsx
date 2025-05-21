@@ -41,7 +41,7 @@ export function AppLayout({ children }: AppLayoutProps) {
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Blocks className="h-8 w-8 text-primary" />
             <h1 className="text-2xl font-semibold tracking-tight text-primary group-data-[collapsible=icon]:hidden">
-              ItemConnect
+              TraceIt
             </h1>
           </Link>
           <div className="ml-auto group-data-[collapsible=icon]:hidden">
@@ -91,7 +91,7 @@ export function AppLayout({ children }: AppLayoutProps) {
           <SidebarTrigger />
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
              <Blocks className="h-7 w-7 text-primary" />
-             <span className="font-semibold text-lg text-primary">ItemConnect</span>
+             <span className="font-semibold text-lg text-primary">TraceIt</span>
           </Link>
         </header>
         <main className="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8">

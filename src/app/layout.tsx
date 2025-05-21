@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ItemConnect - Lost, Found & Exchange",
+  title: "TraceIt- Lost, Found & Exchange",
   description: "Connect with your community to find lost items, announce found items, and exchange goods.",
 };
 
