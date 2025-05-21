@@ -1,3 +1,4 @@
+
 import type { LucideIcon } from 'lucide-react';
 
 export interface Item {
@@ -41,7 +42,7 @@ let items: Item[] = [
     name: 'Vintage Acoustic Guitar', 
     description: 'Beautifully aged Yamaha acoustic guitar. Minor wear, but plays wonderfully. Comes with a soft case. Selling due to upgrade.', 
     imageUrl: 'https://placehold.co/600x400.png', 
-    category: 'Other', // Changed to 'Other' as 'Musical Instruments' is not in the list
+    category: 'Other', 
     contactDetails: 'guitarist@example.com', 
     reportedAt: new Date().toISOString(),
     dataAiHint: "guitar music"
@@ -84,3 +85,5 @@ export const addItem = (itemData: Omit<Item, 'id' | 'reportedAt'>): Item => {
 };
 
 export const itemCategories: Item["category"][] = ["Electronics", "Furniture", "Clothing", "Books", "Sports", "Vehicles", "Other"];
+
+    
